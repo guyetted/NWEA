@@ -19,4 +19,10 @@ Requirements:
 6. Download the two html files form_submit.html, and form_action.html and place them in the /templates subdir of your python folder. If /templates does not exist, go ahead and make that directory. For example, you would place the files in C:\python\templates\ 
 
 
+To Run:
+1. Invoke python script from command line: type: 'python blogserver.py'. The script will start a small webserver that will run on your computer on port 5000 
+
+2. Open a browser and navigate to http://localhost:5000/. This will display a form for you to make entries into the blog.
+
+3. To display the contents of the blog, navigate to http://localhost:5000/posts
 

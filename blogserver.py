@@ -17,6 +17,10 @@ api = Api(app)
 def form():
     return render_template('form_submit.html')
 
+# define the actions that happen when we go to /post/ URI
+# specify that this is a POST method
+@app.route('/post/', methods=['POST'])
+
 def post():
 	blog_title=request.form['title']
 	blog_content=request.form['content']

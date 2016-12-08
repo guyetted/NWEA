@@ -5,6 +5,7 @@ This will have a total of 3 code files: 2 html files  and one python script. Thi
 
 
 Requirements:
+
 1. Have python 3 installed. You can download from https://www.python.org/downloads/
   Follow the installation instructions and be aware of where the default python app directory is. For example, on windows, you can specify   the default install directory to be C:\python
   

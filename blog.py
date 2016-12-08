@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
-from flask import Flask, render_template, request, url_for
+from flask import render_template, request, url_for
 from sqlalchemy import create_engine
 from json import dumps
 

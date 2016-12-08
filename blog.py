@@ -11,6 +11,11 @@ e = create_engine('sqlite:///blog.db')
 
 app = Flask(__name__)
 api = Api(app)
+# Define a route for the default URL, which loads the html forms
+@app.route('/')
+def form():
+    return render_template('form_submit.html')
+
 
 
 class Get_all(Resource):

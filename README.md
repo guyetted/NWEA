@@ -1,7 +1,7 @@
 # NWEA
 Repo for the NWEA code assignment
 
-This will have a total of 3 code files: 2 html files  and one python script.  
+This will have a total of 3 code files: 2 html files  and one python script. This solutions uses python with the FLASK framework. Therefore we will have to install python, pip, and flask. We will also have to place files in correct locations as specified. 
 
 
 Requirements:

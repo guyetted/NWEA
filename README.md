@@ -21,6 +21,7 @@ Requirements:
 
 
 To Run:
+
 1. Invoke python script from command line: type: 'python blogserver.py'. The script will start a small webserver that will run on your computer on port 5000 
 
 2. Open a browser and navigate to http://localhost:5000/. This will display a form for you to make entries into the blog.

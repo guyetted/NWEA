@@ -13,9 +13,18 @@ app = Flask(__name__)
 api = Api(app)
 # Define a route for the default URL, which loads the html forms
 @app.route('/')
+
 def form():
     return render_template('form_submit.html')
 
+def post():
+	blog_title=request.form['title']
+	blog_content=request.form['content']
+	conn=e.connect()
+	## query statemen
+	query = conn.execute("insert into posts (title,body) values (?,?)", (blog_title,blog_content))
+	return render_template('form_action.html', title=blog_title, content=blog_content)
+	
 
 
 class Get_all(Resource):
